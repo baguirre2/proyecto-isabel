@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" path="/SGCDEC">
+	<Resource 
+		name="jdbc/sgcdec"
+		auth="Container"
+		type="javax.sql.DataSource"
+		username="benjamin"
+		password="Pumas123"
+		driverClassName="org.postgresql.jdbcDriver"
+		url="jdbc:postgresql//localhost:5432/sgcdec"
+		maxActive="8"
+		maxIdle="4"
+	/>    
+</Context>
